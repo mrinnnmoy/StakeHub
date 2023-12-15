@@ -4,8 +4,8 @@ A decentralized application that enables users to stake ERC20 tokens and earn re
 
 ## Key Tokens
 
-- **Stake Token** : ERC20 token used for staking within the DApp.
-- **Reward Token** : Another ERC20 token generated as reward for staking.
+- **Stake Token** : GOLD, ERC20 token used for staking within the DApp.
+- **Reward Token** : FIAT, Another ERC20 token generated as reward for staking.
 
 ## Demo Image
 
