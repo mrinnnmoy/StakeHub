@@ -14,13 +14,13 @@ module.exports = {
     hardhat: {
     },
     mumbai: {
-      url: ALCHEMY_API_KEY_URL ,
+      url: ALCHEMY_API_KEY_URL,
       chainID: 80001,
       accounts: [MUMBAI_PRIVATE_KEY],
     }
   },
   solidity: {
-    version: "0.8.9",
+    version: "0.8.20",
     settings: {
       optimizer: {
         enabled: true,

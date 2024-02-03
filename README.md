@@ -9,7 +9,7 @@ A decentralized application that enables users to stake ERC20 tokens and earn re
 
 ## Demo Image
 
-![Demo-Image](./demo-img.png)
+![Demo-Image](./stakehub-demo.png)
 
 ## Functionality
 
