@@ -18,4 +18,5 @@ contract Fiat is ERC20 {
     }
 }
 
-// Contract Address at Polygon Mumbai : 0x7c3c23c287cb75eacc34fe226784f8cb7aa77dc0
+// Contract Address at Sepolia Testnet : 0xb8b45fdadd7b471f7cd90e997b9fb0b07d852278
+// Total Supply : 1,000,000

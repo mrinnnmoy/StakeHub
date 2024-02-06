@@ -18,4 +18,5 @@ contract Gold is ERC20 {
     }
 }
 
-// Contract Address at Polygon Mumbai : 0xb0dee3b6c1db2671531851ba9b264c9afce2658e
+// Contract Address at Sepolia Testnet : 0x642c37a5a9dcb3f3178bd7e33bd2105603327cf7
+// Total Supply: 100,000
