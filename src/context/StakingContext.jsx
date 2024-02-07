@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState, createContext } from 'react';
 
-const StakingContext = () => {
+const StakingContext = createContext();
+
+export const StakingProvider = ({ children }) => {
+  const [isReload, setIsReload] = useState(false);
+
   return (
-    <div>StakingContext</div>
+    <StakingContext.Provider value={{ isReload, setIsReload }}>
+      {children}
+    </StakingContext.Provider>
   )
 };
 
