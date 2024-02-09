@@ -4,9 +4,16 @@ import Navbar from "./components/Navbar/Navbar";
 import Display from "./components/Display/Display";
 import TokenApproval from "./components/Stake/TokenApproval";
 import StakeAmount from './components/Stake/StakeAmount';
+import WithdrawStakeAmount from './components/Withdraw';
 import { StakingProvider } from "./context/StakingContext";
 
 const App = () => {
+  const [displaySection, setDisplaySection] = useState("Stake");
+
+  const handleButtonClick = (section) => {
+    setDisplaySection(section);
+  };
+
   return (
     <div>
       <Wallet>
@@ -15,12 +22,20 @@ const App = () => {
           <Display />
           <div>
             <div>
-              <button>Stake</button>
+              <button onClick={() => handleButtonClick("Stake")} className={displaySection === "Stake" ? "" : "active"}>Stake</button>
+              <button onClick={() => handleButtonClick("Withdraw")} className={displaySection === "Withdraw" ? "" : "active"}>Withdraw</button>
             </div>
-            <div>
-              <TokenApproval />
-              <StakeAmount />
-            </div>
+            {displaySection === "Stake" && (
+              <div>
+                <TokenApproval />
+                <StakeAmount />
+              </div>
+            )}
+            {displaySection === "Withdraw" && (
+              <div>
+                <WithdrawStakeAmount />
+              </div>
+            )}
           </div>
         </StakingProvider>
       </Wallet>
