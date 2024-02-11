@@ -1,5 +1,5 @@
 import React from 'react';
-import ConnectedAccount from './connectedAccount';
+import ConnectedAccount from './ConnectedAccount';
 import ConnectedNetwork from './ConnectedNetwork';
 import ClaimReward from "../ClaimReward/ClaimReward";
 import "./Navbar.css";
