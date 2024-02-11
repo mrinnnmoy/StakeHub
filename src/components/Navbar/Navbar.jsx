@@ -1,15 +1,17 @@
 import React from 'react';
 import ConnectedAccount from './connectedAccount';
 import ConnectedNetwork from './ConnectedNetwork';
-import ClaimReward from "../ClaimReward";
+import ClaimReward from "../ClaimReward/ClaimReward";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <header>
-      <div>
+    <header className='navbar'>
+      <div className='navbar-btns'>
         <ClaimReward />
       </div>
-      <div>
+      <p>StakeHub</p>
+      <div className='navbar-acc'>
         <ConnectedAccount />
         <ConnectedNetwork />
       </div>

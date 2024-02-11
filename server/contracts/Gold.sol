@@ -18,5 +18,5 @@ contract Gold is ERC20 {
     }
 }
 
-// Contract Address at Sepolia Testnet : 0x642c37a5a9dcb3f3178bd7e33bd2105603327cf7
+// Contract Address at Sepolia Testnet : 0xd0eDAa51A054337d2CEc7C31Ca27FB9543ae22C4
 // Total Supply: 100,000

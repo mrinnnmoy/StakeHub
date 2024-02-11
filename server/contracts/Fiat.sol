@@ -18,5 +18,5 @@ contract Fiat is ERC20 {
     }
 }
 
-// Contract Address at Sepolia Testnet : 0xb8b45fdadd7b471f7cd90e997b9fb0b07d852278
+// Contract Address at Sepolia Testnet : 0xbA28048D863Cd280C719aB63F64368D5fc5C9d3e
 // Total Supply : 1,000,000

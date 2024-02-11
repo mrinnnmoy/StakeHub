@@ -6,7 +6,7 @@ const ConnectedAccount = () => {
 
   return (
     <div>
-      <p>
+      <p className='connected-ac'>
         {selectedAccount ? selectedAccount : "Connect Account..."}
       </p>
     </div>

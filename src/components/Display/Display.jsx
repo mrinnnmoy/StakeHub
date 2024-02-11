@@ -2,10 +2,11 @@ import React from 'react';
 import RewardRate from './RewardRate';
 import StakedAmount from './StakedAmount';
 import EarnedReward from './EarnedReward';
+import "./Display.css";
 
 const Display = () => {
     return (
-        <div>
+        <div className="top-wrapper">
             <StakedAmount />
             <RewardRate />
             <EarnedReward />
